@@ -1,0 +1,194 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+ .fnav
+ {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -8px;
+    margin-right: 10px;
+    color: white;
+    padding: 6px;
+    background-color: rgb(42, 42,68);
+    width: 99%;
+
+ }
+ .fnav .left
+ {
+    display: flex;
+    margin-top: 5px;
+
+ }
+.left img{
+    width: 150px;
+}
+.left input{
+    margin-inline: 11px;
+    width: 320px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+.fnav .right
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 280px;
+    
+
+}
+.right p{
+    margin-inline: 10px;
+    font-size: 22px;
+    margin-top: 0px;
+}
+.right button
+{
+    margin-inline: 20px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 8px;
+    background-color: palevioletred;
+    color: white;
+
+}
+.right i{
+    margin-inline: 25px; 
+    font-size: 21px;
+
+}
+.sec-nav
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:10px ;
+    background-color: rgb(26,26,48);
+    color: white;
+    cursor: pointer;
+}
+.sec-nav p:hover{
+    color: palevioletred;
+    font-weight: 600;
+}
+.sec-nav .sec-left
+{
+    display: flex;
+}
+.sec-nav .sec-right
+{
+    display: flex;
+}
+.sec-left{
+    margin-inline-end: 280px;
+}
+.sec-right{
+    margin-inline-end: 18px;
+}
+.sec-right p {
+    margin-inline: 16px;
+}
+.sec-left p {
+    margin-inline: 16px;
+}
+.main img
+{
+    margin-top: 0px;
+   width: 100%;
+}
+.offer img
+{
+  height: 120px;
+  max-width: 76%;
+  margin-left: 180px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.container h2
+{
+   
+    padding: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.container .cards
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cards img
+{
+    max-width: 2200px;
+    width: 18%;
+    margin-block: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.cards img:hover {
+    transform: scale(1.1);
+}
+
+.banner img
+{
+    margin-left: 70px;
+    width: 91%;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.baner img
+{
+    height: 135px;
+    margin-left: -1px;
+    width: 1450px;
+    cursor: pointer;
+    
+}
+.premiere
+{
+    background-color: #2B3149;
+    color:black;
+    padding: 35px;
+    margin-top: 40px;
+}
+
+.container .cards{
+    margin-top: 11PX;
+}
+.footer
+{
+    background-color: rgb(227, 218,218);
+    padding: 0px;
+    margin-top: 0px;
+}
+.footer img
+{
+    width: 22%;
+    margin-left: 40%;
+}
+.footer .icons{
+    display: flex;
+    justify-content: center;
+
+}
+.icons i
+{
+    margin-inline:22px;
+    font-size: 25px;
+    font-size: 37px;
+}
+.icons i:hover
+{
+    font-weight: 800;
+}
